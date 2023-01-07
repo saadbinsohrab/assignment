@@ -38,8 +38,19 @@
 }
 
 .btn-banner{
-   text-align: right;
-   padding-right : 165px;
+   /* text-align: right;
+   padding-right : 165px; */
+   color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px; 
+    height: 64px;
+    width: 160px;
+    border: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    position: absolute;
+    bottom: 50px;
+    right: 155px;
 }
 
 /* failures section */
@@ -56,8 +67,7 @@
 }
 
 .failur-text{
-    /* width: 216px;
-    height: 400px; */
+   
 }
 
 .failur-title{
@@ -88,8 +98,7 @@
 
 /* My Plan Section */
 .My-Plan{
-    /* max-width: 1140px;
-    margin: 0 auto; */
+
 }
 
 .section-title{
@@ -121,4 +130,121 @@
 .skill-sub-title{
     font-weight: 500;
     font-size: 25px;
+}
+
+/* positive section */
+.positive{
+    
+    /* background-repeat: no-repeat; */
+    width: 1140px;
+    height: 300px;
+    margin: auto;
+    justify-content: center
+    position: relative;
+}
+
+/* .qaz{
+    font-weight: 700;
+    font-size: 40px;
+    width: 459px;
+    height: 94px;
+    position: absolute;
+}
+
+.qaz-btn{
+    width: 160px;
+    height: 64px;
+} */
+
+.container {
+    background-image: url('/images/watch.png');
+    width: 1140px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: auto;
+    justify-content: center
+  }
+  /* Top left text */
+  .top-left {
+    text-align: left;
+    position: absolute;
+    top: 59px;
+    left: 64px;
+    font-weight: 700;
+    font-size: 40px;
+    width: 459px;
+  }
+
+  .positive-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 64px;
+    width: 160px;
+    color: #FD6E0A;
+    font-weight: 600;
+    font-size: 20px; 
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+/* future section */
+
+.future{
+    display: flex;
+    gap: 330px;
+    color: #FFFFFF;
+    background: #151414;
+    margin: auto;
+    justify-content: center;
+    margin-top: 130px;
+    height: 577px;
+}
+
+.future-info{
+    padding-left: 230px;
+}
+
+.info-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.info-description{
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.future-form{
+    margin-right: 250px;
+}
+
+.form-title{
+    font-weight: 600;
+font-size: 25px;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+
+form input{
+    margin-bottom: 25px;
+    width: 370px;
+    background-color: #151414;
+    border-radius: 5px;
+}
+
+.lbtn{
+    color: #FD6E0A;
+    font-weight: 600;
+    font-size: 20px; 
+    height: 60px;
+    width: 170px;
+    border: 0;
+    border-radius: 5px;
+    background: #FFFFFF;
 }
