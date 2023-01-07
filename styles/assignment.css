@@ -76,3 +76,49 @@
     height: 104px;
     padding-top: 24px;
 }
+
+.fd-item{
+    display: flex;
+    gap: 10px;
+}
+
+.fd-chack-icon{
+    color: #16D887;
+}
+
+/* My Plan Section */
+.My-Plan{
+    /* max-width: 1140px;
+    margin: 0 auto; */
+}
+
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 130px;
+    padding-bottom: 55px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 85px;
+    width: 1140px;
+    height: 300px; 
+    margin: auto;
+    justify-content: center;   
+}
+
+.skill{
+    text-align: center;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.skill-sub-title{
+    font-weight: 500;
+    font-size: 25px;
+}
