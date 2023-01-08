@@ -9,6 +9,10 @@
     background-repeat: no-repeat;
 }
 
+main{
+    max-width: 1140px;
+}
+
 .banner{
     /* text-align: right; */
     
