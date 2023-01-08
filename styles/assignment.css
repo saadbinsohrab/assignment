@@ -16,8 +16,6 @@ main{
 
 .banner{
     text-align: right;
-    
-    /* padding-right: 230px; */
     padding-top: 216px;
 }
 
@@ -26,7 +24,6 @@ main{
     font-size: 65px;
     font-weight: 700;
     width: 525px;
-    /* height: 228px; */
     padding-left: 845px;
     padding-bottom: 24px;
 }
@@ -41,8 +38,6 @@ main{
 }
 
 .btn-banner{
-   /* text-align: right;
-   padding-right : 165px; */
    color: #FFFFFF;
     font-weight: 600;
     font-size: 20px; 
@@ -57,18 +52,11 @@ main{
 }
 
 /* failures section */
+
 .failur-section{
     display: flex;
     gap: 87px;
     align-items: center;
-}
-
-.failer-pic
-    
-}
-
-.failur-text{
-   
 }
 
 .failur-title{
@@ -97,10 +85,51 @@ main{
     color: #16D887;
 }
 
-/* My Plan Section */
-.My-Plan{
+/* today */
+
+.today{
+    margin-top: 130px;
+    text-align: center;
+    background-color: #efebeb;
+    border-radius: 5px;
+    border-bottom-right-radius: 30px;
+    padding-top: 100px;
+}
+
+.text-today{
+    color: #FD6E0A;
+}
+
+.today-title{
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.today-sub-title{
+    font-weight: 500px;
+    padding-bottom: 100px;
+}
+
+.today-container{
+    display: flex;
+    gap: 50px;
+}
+.t-item{
+    border-bottom-right-radius: 30px;
+    box-shadow: 3px 2px 5px #5d5b5b;
+}
+
+.t-item-title{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.t-item-description{
 
 }
+
+/* My Plan Section */
 
 .section-title{
     text-align: center;
@@ -133,10 +162,7 @@ main{
     font-size: 25px;
 }
 
-/* positive section */
 .positive{
-    
-    /* background-repeat: no-repeat; */
     width: 1140px;
     height: 300px;
     margin: auto;
@@ -154,7 +180,7 @@ main{
     margin: auto;
     justify-content: center
   }
-  /* Top left text */
+
   .top-left {
     text-align: left;
     position: absolute;
@@ -179,9 +205,9 @@ main{
     background: #FFFFFF;
 }
 
-/* future section */
+/* footer section */
 
-.future{
+.footer{
     display: flex;
     gap: 330px;
     color: #FFFFFF;
@@ -192,7 +218,7 @@ main{
     height: 577px;
 }
 
-.future-info{
+.footer-info{
     padding-left: 230px;
 }
 
@@ -208,7 +234,7 @@ main{
     padding-bottom: 25px;
 }
 
-.future-form{
+.footer-form{
     margin-right: 250px;
 }
 
