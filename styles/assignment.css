@@ -5,16 +5,17 @@
 
 .header{
     height: 808px;
-    background-image: url("/images/banner/banner1.png");
+    background-image: url("../images/banner/banner1.png");
     background-repeat: no-repeat;
 }
 
 main{
     max-width: 1140px;
+    margin: 0 auto;
 }
 
 .banner{
-    /* text-align: right; */
+    text-align: right;
     
     /* padding-right: 230px; */
     padding-top: 216px;
@@ -26,7 +27,6 @@ main{
     font-weight: 700;
     width: 525px;
     /* height: 228px; */
-    text-align: right;
     padding-left: 845px;
     padding-bottom: 24px;
 }
@@ -36,7 +36,6 @@ main{
     font-size: 16px;
     width: 494px;
     height: 78px;
-    text-align: right;
     padding-left: 876px;
     padding-bottom: 32px;
 }
@@ -62,8 +61,6 @@ main{
     display: flex;
     gap: 87px;
     align-items: center;
-    padding-left: 206px;
-    padding-top: 171px;
 }
 
 .failer-pic
@@ -147,21 +144,8 @@ main{
     position: relative;
 }
 
-/* .qaz{
-    font-weight: 700;
-    font-size: 40px;
-    width: 459px;
-    height: 94px;
-    position: absolute;
-}
-
-.qaz-btn{
-    width: 160px;
-    height: 64px;
-} */
-
 .container {
-    background-image: url('/images/watch.png');
+    background-image: url('../images/watch.png');
     width: 1140px;
     height: 300px;
     position: relative;
